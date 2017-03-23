@@ -16,7 +16,7 @@ $sender = $input['entry'][0]['messaging'][0]['sender']['id'];
 $message = $input['entry'][0]['messaging'][0]['message']['text'];
 
 //API Url and Access Token, generate this token value on your Facebook App Page
-$url = 'https://graph.facebook.com/v2.6/me/messages?access_token=<ACCESS-TOKEN-VALUE>';
+$url = 'https://graph.facebook.com/v2.6/me/messages?access_token=EAAbjcuvajRYBANMtBZBjGMyUGBoEL10QxlzETV9Bso07raZCachLLQOf1On7w6NfcCufJw3isvmjDPyuYmNOGMVZCQzKZCg8K5aZAkToLi9iVkKHcc7umERoRAkTWhx8gaVsTvSjmZBS1mxWE2FgL8M19tVxEE2duvtkjKESu5NwZDZD';
 
 //Initiate cURL.
 $ch = curl_init($url);
